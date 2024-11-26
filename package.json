@@ -1,19 +1,25 @@
 {
-  "name": "market",
+  "name": "fruit-ok",
   "version": "1.0.0",
-  "description": "this is my favorite online market",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo\"Error: no test specified\"&& exit 1",
-    "start": "node index.js",
-    "start:dev": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/main.js",
+    "start:dev": "nodemon src/main.js"
   },
-  "author": "Abror",
+  "keywords": [
+    "ok"
+  ],
+  "author": "",
   "license": "ISC",
+  "description": "",
   "devDependencies": {
     "nodemon": "^3.1.7"
   },
   "dependencies": {
-    "uuid":"^11.0.2"
-  }
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "uuid": "^11.0.3"
+  },
+  "type": "module"
 }
